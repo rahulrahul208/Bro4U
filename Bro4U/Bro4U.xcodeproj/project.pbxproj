@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5221EC651C6D68440007C96E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221EC641C6D68440007C96E /* AppDelegate.swift */; };
+		5221EC671C6D68440007C96E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221EC661C6D68440007C96E /* ViewController.swift */; };
+		5221EC6A1C6D68440007C96E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5221EC681C6D68440007C96E /* Main.storyboard */; };
+		5221EC6D1C6D68440007C96E /* Bro4U.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5221EC6B1C6D68440007C96E /* Bro4U.xcdatamodeld */; };
+		5221EC6F1C6D68440007C96E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5221EC6E1C6D68440007C96E /* Assets.xcassets */; };
+		5221EC721C6D68440007C96E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5221EC701C6D68440007C96E /* LaunchScreen.storyboard */; };
+		5221EC7D1C6D68440007C96E /* Bro4UTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221EC7C1C6D68440007C96E /* Bro4UTests.swift */; };
+		5221EC881C6D68440007C96E /* Bro4UUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5221EC871C6D68440007C96E /* Bro4UUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5221EC791C6D68440007C96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5221EC591C6D68440007C96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5221EC601C6D68440007C96E;
+			remoteInfo = Bro4U;
+		};
+		5221EC841C6D68440007C96E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5221EC591C6D68440007C96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5221EC601C6D68440007C96E;
+			remoteInfo = Bro4U;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5221EC611C6D68440007C96E /* Bro4U.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bro4U.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5221EC641C6D68440007C96E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5221EC661C6D68440007C96E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5221EC691C6D68440007C96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5221EC6C1C6D68440007C96E /* Bro4U.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bro4U.xcdatamodel; sourceTree = "<group>"; };
+		5221EC6E1C6D68440007C96E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5221EC711C6D68440007C96E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5221EC731C6D68440007C96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5221EC781C6D68440007C96E /* Bro4UTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bro4UTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5221EC7C1C6D68440007C96E /* Bro4UTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bro4UTests.swift; sourceTree = "<group>"; };
+		5221EC7E1C6D68440007C96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5221EC831C6D68440007C96E /* Bro4UUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Bro4UUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5221EC871C6D68440007C96E /* Bro4UUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bro4UUITests.swift; sourceTree = "<group>"; };
+		5221EC891C6D68440007C96E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5221EC5E1C6D68440007C96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC751C6D68440007C96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC801C6D68440007C96E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5221EC581C6D68440007C96E = {
+			isa = PBXGroup;
+			children = (
+				5221EC631C6D68440007C96E /* Bro4U */,
+				5221EC7B1C6D68440007C96E /* Bro4UTests */,
+				5221EC861C6D68440007C96E /* Bro4UUITests */,
+				5221EC621C6D68440007C96E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5221EC621C6D68440007C96E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5221EC611C6D68440007C96E /* Bro4U.app */,
+				5221EC781C6D68440007C96E /* Bro4UTests.xctest */,
+				5221EC831C6D68440007C96E /* Bro4UUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5221EC631C6D68440007C96E /* Bro4U */ = {
+			isa = PBXGroup;
+			children = (
+				5221EC641C6D68440007C96E /* AppDelegate.swift */,
+				5221EC661C6D68440007C96E /* ViewController.swift */,
+				5221EC681C6D68440007C96E /* Main.storyboard */,
+				5221EC6E1C6D68440007C96E /* Assets.xcassets */,
+				5221EC701C6D68440007C96E /* LaunchScreen.storyboard */,
+				5221EC731C6D68440007C96E /* Info.plist */,
+				5221EC6B1C6D68440007C96E /* Bro4U.xcdatamodeld */,
+			);
+			path = Bro4U;
+			sourceTree = "<group>";
+		};
+		5221EC7B1C6D68440007C96E /* Bro4UTests */ = {
+			isa = PBXGroup;
+			children = (
+				5221EC7C1C6D68440007C96E /* Bro4UTests.swift */,
+				5221EC7E1C6D68440007C96E /* Info.plist */,
+			);
+			path = Bro4UTests;
+			sourceTree = "<group>";
+		};
+		5221EC861C6D68440007C96E /* Bro4UUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5221EC871C6D68440007C96E /* Bro4UUITests.swift */,
+				5221EC891C6D68440007C96E /* Info.plist */,
+			);
+			path = Bro4UUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5221EC601C6D68440007C96E /* Bro4U */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5221EC8C1C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4U" */;
+			buildPhases = (
+				5221EC5D1C6D68440007C96E /* Sources */,
+				5221EC5E1C6D68440007C96E /* Frameworks */,
+				5221EC5F1C6D68440007C96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bro4U;
+			productName = Bro4U;
+			productReference = 5221EC611C6D68440007C96E /* Bro4U.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5221EC771C6D68440007C96E /* Bro4UTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5221EC8F1C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4UTests" */;
+			buildPhases = (
+				5221EC741C6D68440007C96E /* Sources */,
+				5221EC751C6D68440007C96E /* Frameworks */,
+				5221EC761C6D68440007C96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5221EC7A1C6D68440007C96E /* PBXTargetDependency */,
+			);
+			name = Bro4UTests;
+			productName = Bro4UTests;
+			productReference = 5221EC781C6D68440007C96E /* Bro4UTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5221EC821C6D68440007C96E /* Bro4UUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5221EC921C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4UUITests" */;
+			buildPhases = (
+				5221EC7F1C6D68440007C96E /* Sources */,
+				5221EC801C6D68440007C96E /* Frameworks */,
+				5221EC811C6D68440007C96E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5221EC851C6D68440007C96E /* PBXTargetDependency */,
+			);
+			name = Bro4UUITests;
+			productName = Bro4UUITests;
+			productReference = 5221EC831C6D68440007C96E /* Bro4UUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5221EC591C6D68440007C96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = MACBookPro;
+				TargetAttributes = {
+					5221EC601C6D68440007C96E = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					5221EC771C6D68440007C96E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5221EC601C6D68440007C96E;
+					};
+					5221EC821C6D68440007C96E = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 5221EC601C6D68440007C96E;
+					};
+				};
+			};
+			buildConfigurationList = 5221EC5C1C6D68440007C96E /* Build configuration list for PBXProject "Bro4U" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5221EC581C6D68440007C96E;
+			productRefGroup = 5221EC621C6D68440007C96E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5221EC601C6D68440007C96E /* Bro4U */,
+				5221EC771C6D68440007C96E /* Bro4UTests */,
+				5221EC821C6D68440007C96E /* Bro4UUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5221EC5F1C6D68440007C96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5221EC721C6D68440007C96E /* LaunchScreen.storyboard in Resources */,
+				5221EC6F1C6D68440007C96E /* Assets.xcassets in Resources */,
+				5221EC6A1C6D68440007C96E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC761C6D68440007C96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC811C6D68440007C96E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5221EC5D1C6D68440007C96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5221EC671C6D68440007C96E /* ViewController.swift in Sources */,
+				5221EC6D1C6D68440007C96E /* Bro4U.xcdatamodeld in Sources */,
+				5221EC651C6D68440007C96E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC741C6D68440007C96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5221EC7D1C6D68440007C96E /* Bro4UTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5221EC7F1C6D68440007C96E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5221EC881C6D68440007C96E /* Bro4UUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5221EC7A1C6D68440007C96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5221EC601C6D68440007C96E /* Bro4U */;
+			targetProxy = 5221EC791C6D68440007C96E /* PBXContainerItemProxy */;
+		};
+		5221EC851C6D68440007C96E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5221EC601C6D68440007C96E /* Bro4U */;
+			targetProxy = 5221EC841C6D68440007C96E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5221EC681C6D68440007C96E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5221EC691C6D68440007C96E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5221EC701C6D68440007C96E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5221EC711C6D68440007C96E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5221EC8A1C6D68440007C96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5221EC8B1C6D68440007C96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5221EC8D1C6D68440007C96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bro4U/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5221EC8E1C6D68440007C96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Bro4U/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4U;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5221EC901C6D68440007C96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bro4UTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bro4U.app/Bro4U";
+			};
+			name = Debug;
+		};
+		5221EC911C6D68440007C96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Bro4UTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4UTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bro4U.app/Bro4U";
+			};
+			name = Release;
+		};
+		5221EC931C6D68440007C96E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Bro4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bro4U;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5221EC941C6D68440007C96E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Bro4UUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cognizant.com.Bro4UUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Bro4U;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5221EC5C1C6D68440007C96E /* Build configuration list for PBXProject "Bro4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5221EC8A1C6D68440007C96E /* Debug */,
+				5221EC8B1C6D68440007C96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5221EC8C1C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4U" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5221EC8D1C6D68440007C96E /* Debug */,
+				5221EC8E1C6D68440007C96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5221EC8F1C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4UTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5221EC901C6D68440007C96E /* Debug */,
+				5221EC911C6D68440007C96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5221EC921C6D68440007C96E /* Build configuration list for PBXNativeTarget "Bro4UUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5221EC931C6D68440007C96E /* Debug */,
+				5221EC941C6D68440007C96E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5221EC6B1C6D68440007C96E /* Bro4U.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5221EC6C1C6D68440007C96E /* Bro4U.xcdatamodel */,
+			);
+			currentVersion = 5221EC6C1C6D68440007C96E /* Bro4U.xcdatamodel */;
+			path = Bro4U.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5221EC591C6D68440007C96E /* Project object */;
+}
